@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "present working directory:$PWD
+echo "present working directory:$PWD"
