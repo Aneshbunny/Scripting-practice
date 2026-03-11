@@ -15,14 +15,12 @@ VALIDATE(){
      echo "$2...success"
     fi
 }
- echo "Installing Nginx"
+
  dnf install nginx -y &>> LOGS_FILE
  VALIDATE $? "Installing Nginx"
 
- echo "Installing Mysql"
  dnf install mysql -y &>> LOGS_FILE
  VALIDATE $? "Installing Mysql"
 
- echo "Installing Nodejs"
  dnf install nodejs -y &>> LOGS_FILE
  VALIDATE $? "Installing Nodejs"
