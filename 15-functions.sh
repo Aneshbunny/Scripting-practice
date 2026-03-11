@@ -13,7 +13,7 @@ VALIDATE(){
     fi
 }
  echo "Installing Nginx"
- dnf install nginx -y
+ dnf install nginxx -y
  VALIDATE $? "Installing Nginx"
 
  echo "Installing Mysql"
